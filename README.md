@@ -1,1 +1,1 @@
-# BuildItBigger
+Udacity Project for Android Developer Nanogedree
