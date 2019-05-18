@@ -32,6 +32,16 @@ android {
             multiDexEnabled true
         }
     }
+
+    flavorDimensions "standard"
+    productFlavors{
+        free{
+            applicationId "com.udacity.builditbigger.flavors.free"
+        }
+        paid{
+            applicationId "com.udacity.builditbigger.flavors.paid"
+        }
+    }
 }
 
 dependencies {
