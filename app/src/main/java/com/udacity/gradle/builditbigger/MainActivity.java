@@ -23,7 +23,7 @@ import java.io.IOException;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Context mContext;
+    public static Context mContext;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
