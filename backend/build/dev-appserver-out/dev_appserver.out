@@ -21,3 +21,8 @@ Mai 19, 2019 11:36:38 AM com.google.appengine.tools.development.AbstractModule s
 INFORMATION: The admin console is running at http://localhost:8080/_ah/admin
 Mai 19, 2019 8:36:38 AM com.google.appengine.tools.development.DevAppServerImpl doStart
 INFORMATION: Dev App Server is now running
+2019-05-19 08:55:42.658:INFO:oejs.AbstractConnector:pool-1-thread-1: Stopped NetworkTrafficSelectChannelConnector@3cce5371{HTTP/1.1,[http/1.1]}{localhost:8080}
+2019-05-19 08:55:42.674:INFO:oejsh.ContextHandler:pool-1-thread-1: Stopped c.g.a.t.d.j.DevAppEngineWebAppContext@70cf32e3{/,file:///C:/Users/dspie/Udacity/BuildItBigger/backend/build/exploded-backend/,UNAVAILABLE}{C:\Users\dspie\Udacity\BuildItBigger\backend\build\exploded-backend}
+Mai 19, 2019 8:55:42 AM com.google.appengine.tools.development.AbstractModule shutdown
+INFORMATION: Shutting down module instance default
+Shutting down.
