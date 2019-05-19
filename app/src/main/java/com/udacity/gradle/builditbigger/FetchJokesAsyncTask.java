@@ -7,6 +7,8 @@ import com.google.api.client.extensions.android.http.AndroidHttp;
 import com.google.api.client.extensions.android.json.AndroidJsonFactory;
 import com.google.api.client.googleapis.services.AbstractGoogleClientRequest;
 import com.google.api.client.googleapis.services.GoogleClientRequestInitializer;
+
+import android.util.Log;
 import android.util.Pair;
 import com.udacity.gradle.builditbigger.backend.myApi.MyApi;
 
@@ -17,6 +19,7 @@ public class FetchJokesAsyncTask extends AsyncTask<Pair<Context, String>, Void, 
     private static MyApi myApiService = null;
 
     private Context mContext;
+    private static String TAG = FetchJokesAsyncTask.class.getSimpleName();
 
     public FetchJokesAsyncTask(Context context){
         mContext = context;
@@ -47,7 +50,8 @@ public class FetchJokesAsyncTask extends AsyncTask<Pair<Context, String>, Void, 
 
             return joke;
         } catch (Exception e) {
-            return e.getMessage();
+            Log.d(TAG, e.getMessage());
+            return null;
         }
     }
 }
